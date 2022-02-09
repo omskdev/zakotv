@@ -18,8 +18,16 @@ get_header();
 	<!-- Start only Front Page -->
 <?php if ( is_front_page() ) : ?>
 
-	<div class="bg-fixed bg-cover bg-center min-h-screen min-w-full z-0 top-0 left-0"
+	<div class="bg-fixed bg-cover bg-center min-h-screen min-w-full grid justify-items-center content-center  z-0 top-0 left-0"
 		 style="background-image: url(https://russia.thatsliving.com/wp-content/uploads/2021/01/tk-13_6.jpg)">
+
+			<div>01</div>
+			<div>02</div>
+			<div>03</div>
+			<div>04</div>
+			<div>05</div>
+			<div>06</div>
+
 	</div>
 <?php endif; ?>
 	<!-- End Front Page -->
